@@ -1,0 +1,129 @@
+{% extends 'AppSecuri/index.html' %}
+{%load static%}
+	{% block content %}
+
+    
+<!-- Precios -->
+<div id="inner_banner" class="section inner_banner_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="full">
+            <div class="title-holder">
+              <div class="title-holder-cell text-left">
+                <h1 class="page-title">Nuestros Precios</h1>
+                <ol class="breadcrumb">
+                  <li><a href="{% url 'Inicio' %}">Inicio</a></li>
+                  <li class="active">Precios</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end inner page banner -->
+  <!-- section -->
+  <div class="section padding_layout_1 service_list">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="full">
+            <div class="main_heading text_align_center">
+              <h2>Paquetes de precios</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <!-- full price table -->
+          <div class="price_table row" style="margin-top: 0;">
+            <!-- price table one -->
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+              <div class="price_table_inner margin_bottom_30">
+                <div class="price_head text_align_center">
+                  <h5>Basico</h5>
+                  <p>Soporte Remoto Gratuito</p>
+                  <p>3 Meses</p>
+                </div>
+                <div class="price_contant">
+                  <div class="center">
+                    <p class="price_amount">$ <span class="price_no">250</span>/Equipo</p>
+                  </div>
+                  <div class="price_cont text_align_center">
+                    <p>Instalación de Windows 10, 11</p>
+                    <p>Actulizacion de drivers</p>
+                    <p>Desfragmentación de disco duro</p>
+                    <p>Instalación de paqueteria Office 2013-2021</p>
+                    <p>Programas complementarios</p>
+                  </div>
+                </div>
+                <div class="price_bottom">
+                  <div class="center"> <a href="#" class="btn dark_gray_bt">+ Antivirus</a> </div>
+                </div>
+              </div>
+            </div>
+            <!-- end price table one -->
+            <!-- price table two -->
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 price_table_active">
+              <div class="row">
+                <div class="price_table_inner margin_bottom_30">
+                  <div class="price_head text_align_center white_fonts">
+                    <h5>Profecional</h5>
+                    <p>Soporte Remoto Gratuito</p>
+                    <p>6 Meses</p>
+                  </div>
+                  <div class="price_contant">
+                    <div class="center">
+                      <p class="price_amount">$ <span class="price_no">350</span>/Equipo</p>
+                    </div>
+                    <div class="price_cont text_align_center">
+                      <p>+Paquete Basico</p>
+                      <p>Instalación de programas de Adobe</p>
+                      <p>Instalación de programas de Autodesk</p>
+                      <p>Mantenimiento preventivo</p>
+                      <p>Mantenimiento correctivo</p>
+                      
+                    </div>
+                  </div>
+                  <div class="price_bottom">
+                    <div class="center"> <a href="#" class="btn main_bt">+ Antivirus</a> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end price table two -->
+            <!-- price table three -->
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+              <div class="price_table_inner">
+                <div class="price_head text_align_center">
+                  <h5>Pro Securit-Yes</h5>
+                  <p>Soporte Remoto Gratuito</p>
+                  <p>Ilimitado</p>
+                </div>
+                <div class="price_contant">
+                  <div class="center">
+                    <p class="price_amount">$ <span class="price_no">550</span>/Equipo</p>
+                  </div>
+                  <div class="price_cont text_align_center">
+                    <p>Basico + Profecional</p>
+                    <p>Servicio de Ciberseguridad orientado a los menores</p>
+                    <p>Servicio de Ciberseguridad para Pymes</p>
+                    <p>Servicio de Ciberseguridad orientado al ciudadano</p>
+                  </div>
+                </div>
+                <div class="price_bottom">
+                  <div class="center"> <a href="#" class="btn dark_gray_bt">+ Antivirus</a> </div>
+                </div>
+              </div>
+            </div>
+            <!-- end price table three -->
+          </div>
+          <!-- end full price table -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    {% endblock %}

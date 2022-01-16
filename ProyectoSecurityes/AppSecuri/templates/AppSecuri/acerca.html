@@ -1,0 +1,60 @@
+{% extends 'AppSecuri/index.html' %}
+{%load static%}
+	{% block content %}
+
+    <div id="inner_banner" class="section inner_banner_section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="full">
+                <div class="title-holder">
+                  <div class="title-holder-cell text-left">
+                    <h1 class="page-title">Acerca de Nosotros</h1>
+                    <ol class="breadcrumb">
+                      <li><a href="{% url 'Inicio' %}">Inicio</a></li>
+                      <li class="active">Acerca de Nosotros</li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+      <div class="section padding_layout_1">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="full">
+                <div class="main_heading text_align_center">
+                  <h2>Empresa Recomendada</h2>
+                  <p class="large">¡El servicio de Soporte y ciberseguridad más rapido y con el mejor precio!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row about_blog">
+            <div class="col-lg-6 col-md-6 col-sm-12 about_cont_blog">
+              <div class="full text_align_left">
+                <h3>¿Qué hacemos?</h3>
+                <p>Securit-Yes es una empresa dedicada a brindar soporte técnico a equipos de computo, ofrecemos servicios de ciberseguridad para concientizar al usuariop
+                  con peligros que pueden encontrarse en Internet para que su informacion confidencial no sea robada.
+                  Creamos sitios web o blogs personales para cuarquier tipo de cliente 
+                </p>
+                <ul>
+                  <li><i class="fa fa-check-circle"></i>Soporte Técnico</li>
+                  <li><i class="fa fa-check-circle"></i>Servicios  en Ciberseguirdad</li>
+                  <li><i class="fa fa-check-circle"></i>Desarrollo de sitios web</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 about_feature_img padding_right_0">
+              <div class="full text_align_center"> <img class="img-responsive" src="{% static 'AppSecuri/images/acerc.png' %}" alt="#" /> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+         
+    {% endblock %}

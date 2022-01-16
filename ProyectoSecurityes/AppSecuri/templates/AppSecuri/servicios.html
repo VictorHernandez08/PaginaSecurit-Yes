@@ -1,0 +1,161 @@
+{% extends 'AppSecuri/index.html' %}
+{%load static%}
+	{% block content %}
+
+    <div id="inner_banner" class="section inner_banner_section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="full">
+                <div class="title-holder">
+                  <div class="title-holder-cell text-left">
+                    <h1 class="page-title">Servicios</h1>
+                    <ol class="breadcrumb">
+                      <li><a href="{% url 'Inicio' %}">Inicio</a></li>
+                      <li class="active">Servicios</li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+<div class="section padding_layout_1 light_silver gross_layout">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="full">
+            <div class="main_heading text_align_left">
+              <h2>Proceso del Servicio</h2>
+              <p class="large">¡El servicio de Soporte y ciberseguridad más rapido y con el mejor precio!.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="full">
+                <div class="service_blog_inner">
+                  <div class="icon text_align_left"><img src="{% static 'AppSecuri/images/Rapido.png' %}" alt="#" /></div>
+                  <h4 class="service-heading">Servicio rápido</h4>
+                  <p>Las entregas pueden variar dependiendo la hora en la que se solicite el servicio. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="full">
+                <div class="service_blog_inner">
+                  <div class="icon text_align_left"><img src="{% static 'AppSecuri/images/pagose.png' %}" alt="#" /></div>
+                  <h4 class="service-heading">Pagos seguros</h4>
+                  <p>El pago puede ser en fisico o por transferencia.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="full">
+                <div class="service_blog_inner">
+                  <div class="icon text_align_left"><img src="{% static 'AppSecuri/images/Expertos.png' %}" alt="#" /></div>
+                  <h4 class="service-heading">Expertos</h4>
+                  <p>Tenemos el mejor equipo capacitado para cualquier servicio.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="full">
+                <div class="service_blog_inner">
+                  <div class="icon text_align_left"><img src="{% static 'AppSecuri/images/costos.png' %}" alt="#" /></div>
+                  <h4 class="service-heading">Costos accesibles</h4>
+                  <p>Contamos con diferentes paquetes para cualquer tipo de presupuesto.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="full">
+                <div class="service_blog_inner">
+                  <div class="icon text_align_left"><img src="{% static 'AppSecuri/images/garantia.png' %}" alt="#" /></div>
+                  <h4 class="service-heading">Garantia</h4>
+                  <p>Contamos con tres tipos de garantias dependiendo del paquete a elegir.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="full">
+                <div class="service_blog_inner">
+                  <div class="icon text_align_left"><img src="{% static 'AppSecuri/images/certi.png' %}" alt="#" /></div>
+                  <h4 class="service-heading">Certificados</h4>
+                  <p>Para mayor confianza contamos con certificaciones que comprueban los conocimientos .</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- 
+
+  <div class="section padding_layout_1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="full">
+            <div class="main_heading text_align_left">
+              <h2>Latest from Our Blog</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="full blog_colum">
+            <div class="blog_feature_img"> <img src="images/it_service/post-03.jpg" alt="#" /> </div>
+            <div class="post_time">
+              <p><i class="fa fa-clock-o"></i> April 16, 2018 ( In Maintenance )</p>
+            </div>
+            <div class="blog_feature_head">
+              <h4>Why Your Computer Hates You</h4>
+            </div>
+            <div class="blog_feature_cont">
+              <p>Lorem ipsum dolor sit amet, consectetur quam justo, pretium adipiscing elit. Vestibulum quam justo, pretium eu tempus ut, ...</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <div class="full blog_colum">
+            <div class="blog_feature_img"> <img src="images/it_service/post-04.jpg" alt="#" /> </div>
+            <div class="post_time">
+              <p><i class="fa fa-clock-o"></i> April 16, 2018 ( In Maintenance )</p>
+            </div>
+            <div class="blog_feature_head">
+              <h4>Easy Tips To Computer Repair</h4>
+            </div>
+            <div class="blog_feature_cont">
+              <p>Lorem ipsum dolor sit amet, consectetur quam justo, pretium adipiscing elit. Vestibulum quam justo, pretium eu tempus ut, ...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="full blog_colum">
+            <div class="blog_feature_img"> <img src="images/it_service/post-06.jpg" alt="#" /> </div>
+            <div class="post_time">
+              <p><i class="fa fa-clock-o"></i> April 16, 2018 ( In Maintenance )</p>
+            </div>
+            <div class="blog_feature_head">
+              <h4>Computer Maintenance 2018</h4>
+            </div>
+            <div class="blog_feature_cont">
+              <p>Lorem ipsum dolor sit amet, consectetur quam justo, pretium adipiscing elit. Vestibulum quam justo, pretium eu tempus ut, ...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+    {% endblock %}
